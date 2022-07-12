@@ -1,0 +1,22 @@
+.container-one {
+  display: flex;
+}
+
+h4 {
+    justify-content: space-evenly;
+}
+
+
+
+header {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  display: flex;
+}
+
