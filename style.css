@@ -1,3 +1,8 @@
+html {
+  overflow-y: scroll;
+}
+
+
 .container-one {
   height: 50px;
   width: auto;
@@ -73,4 +78,54 @@ button {
   height: auto;
   margin-top: 75px;
   background-size: 300px 100px;
+}
+
+.container-three {
+  display: flex;
+  height: 50px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 900px;
+  color: #1f2937;
+  margin-top: 60px;
+}
+
+.subtext {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: 40px;
+  margin-right: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  height: 300px;
+}
+
+.picture {
+  width: 150px;
+}
+
+.par {
+  width: 150px;
+  text-align: center;
+}
+
+.sub-1,
+.sub-2,
+.sub-3,
+.sub-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.container-5 {
+  height: 275px;
+  background-color: #e5e7eb;
 }
