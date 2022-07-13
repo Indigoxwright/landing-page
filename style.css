@@ -28,50 +28,49 @@ ul {
   width: auto;
   display: flex;
   background-color: #1F2937;
+  justify-content: space-evenly;
+}
+
+.body {
+  display: flex;
   flex-direction: column;
-  justify-content: center;
+  width: 300px;
 }
 
 h3 {
   color: #f9faf8;
   font-weight: 900px;
   font-size: 48px;
-  width: 350px;
   margin: 0;
+  margin-top: 75px;
   padding: 0;
-  margin-left: 150px;
-  margin-top: 200px;
-  
 }
 
 p {
-  width: 350px;
-  margin: 0;
-  margin-left: 150px;
-  padding: 0;
   color: #e5e7eb;
   font-size: 18px;
+  margin: 0;
+  padding: 0; 
+  width: 375px; 
 }
 
 button {
-  margin-left: 150px;
   width: 100px;
-  height: 35px;
-  border-radius: 10px;
+  height: 25px;
+  border-radius: 7px;
   background-color: #3882f6;
   color: #f9faf8;
   border: none;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 .image {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-end;
+  justify-self: flex-end;
   width: 300px;
   height: auto;
-  margin: 0;
-  padding: 0;
-  align-self: flex-end;
- 
+  margin-top: 75px;
+  background-size: 300px 100px;
 }
